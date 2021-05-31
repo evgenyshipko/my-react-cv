@@ -1,0 +1,39 @@
+
+.main-page{
+
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Manrope', sans-serif;
+
+}
+
+.main-page__wrapper{
+
+    background-color: #f5f5f5;
+
+    min-width: 320px;
+
+    width: 80%;
+}
+
+.skills-container{
+    display: flex;
+
+    flex-flow: row wrap;
+}
+
+.about-me-block{
+    padding: 0 10px;
+}
+
+@media (max-width: 600px) {
+    .main-page__wrapper{
+        width: 100%;
+    }
+
+    .skills-container{
+        justify-content: space-around;
+    }
+
+}

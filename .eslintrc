@@ -21,6 +21,7 @@
         "camelcase": "off"
     },
     "globals": {
-        "localStorage": true
+        "localStorage": true,
+        "JSX": true
     }
 }
