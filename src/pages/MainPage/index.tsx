@@ -68,11 +68,18 @@ export const MainPage = () => {
                             Обязанности:
                             <ul>
                                 <li>
+                                    разработка фронтенда на React с
+                                    использованием библиотеки компонентов antd
+                                </li>
+                                <li>
+                                    кастомизация интерфейса Jira с
+                                    использованием JavaScript
+                                </li>
+                                <li>
                                     настройка бизнес-логики Jira (написание
                                     groovy-скриптов, рисование workflow,
                                     администрирование)
                                 </li>
-                                <li>разработка интерфейсов на React</li>
                                 <li>разработка бэкэнда Django</li>
                                 <li>
                                     настройка реляционных баз данных в
@@ -165,7 +172,7 @@ export const MainPage = () => {
                         yearEnd={2021}
                         yearStart={2020}
                         organization={'Яндекс-практикум'}
-                        position={'Выпускник'}
+                        position={'Middle Frontend разработчик'}
                     >
                         <div>
                             <br />
@@ -182,8 +189,6 @@ export const MainPage = () => {
                             шаблонизатор, аналог fetch, компонентный подход,
                             store, router.
                             <VerticalGallery itemSourceArr={MESSENGER_IMG} />
-                            <br />
-                            <br />
                             Также еще с двумя разработчиками выполнил командный
                             проект -{' '}
                             <a href="https://github.com/Praga-gamedev/space-death-canvas">

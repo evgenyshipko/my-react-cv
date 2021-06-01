@@ -10,9 +10,12 @@
 
 .main-page__wrapper{
 
+
+
     background-color: #f5f5f5;
 
     min-width: 320px;
+    max-width: 1000px;
 
     width: 80%;
 }
