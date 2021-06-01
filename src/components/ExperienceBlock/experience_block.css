@@ -2,7 +2,7 @@
 .education-block{
     display: grid;
 
-    grid-template-columns: minmax(auto, 10%) minmax(auto, 10%) auto;
+    grid-template-columns: minmax(auto, 10%) minmax(auto, 10%) minmax(auto, 80%);
     grid-template-rows: auto auto auto;
     /*grid-column-gap: 10px;*/
     padding: 10px;

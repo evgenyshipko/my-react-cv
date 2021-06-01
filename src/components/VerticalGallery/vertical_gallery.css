@@ -1,0 +1,12 @@
+
+.vertical-gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.vertical-gallery__item{
+    height: 300px;
+    width: 550px;
+}

@@ -1,7 +1,7 @@
 {
-  "name": "react-typescript-boilerplate",
+  "name": "shipko-react-cv",
   "version": "1.0.0",
-  "description": "Boilerplate for creation React/Typescript applications",
+  "description": "Evgeny Shipko's resume",
   "main": "index.js",
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack serve --config webpack/webpack.dev.js",
@@ -38,8 +38,9 @@
     "webpack-dev-server": "3.11.2"
   },
   "dependencies": {
-    "@material-ui/core": "^4.11.4",
+    "@material-ui/core": "4.11.4",
     "dotenv": "9.0.2",
+    "express": "4.17.1",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "tsconfig-paths-webpack-plugin": "3.5.1"

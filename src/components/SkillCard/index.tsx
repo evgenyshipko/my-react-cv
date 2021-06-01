@@ -8,13 +8,9 @@ type SkillCardProps = {
     iconSource?: string;
 };
 
-export const SkillCard: FC<SkillCardProps> = memo(({ title, iconSource }) => {
-    return (
-        <Paper elevation={3} className="skill-card">
-            {iconSource && (
-                <img className="skill-card__icon" src={iconSource} />
-            )}
-            {title}
-        </Paper>
-    );
-});
+export const SkillCard: FC<SkillCardProps> = memo(({ title, iconSource }) => (
+    <Paper elevation={3} className="skill-card">
+        {iconSource && <img className="skill-card__icon" src={iconSource} />}
+        {title}
+    </Paper>
+));
